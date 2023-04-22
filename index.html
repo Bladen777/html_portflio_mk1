@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+<meta 	charset="utf-8"
+		name="viewport" content="width=device-width, initial-scale=1">
+<title>Braden Kowalchuk</title>
+<link rel="icon" href="images/favicon.ico">
+<link href="css/styles.css" rel="stylesheet" type="text/css">	
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+	
+	
+<body class="background">
+
+<!-- start grid -->	
+<div class="grid">	
+	
+<!-- logo -->
+	<div class="logo">
+		
+		<img src="images/logo.png"
+			 alt="logo"
+		>	 	
+	</div>
+	 
+	
+<!-- end logo -->
+	
+	
+<!-- middle content -->
+	
+	<div class="mid_content"
+		 id="left_column">
+		<h1>	
+			<a 	href="html/sculpture.html"
+	   		alt="go to sculptures">
+				Sculpture
+			 </a>      
+	   	</h1>		
+	
+	</div>
+	
+	<div class="mid_content"
+		 id="middle_column">
+		<h1>	
+			<a 	href="html/digital.html"
+	   		alt="go to digital">
+				Digital
+			 </a>      
+	   	</h1>	
+	</div>	
+
+	<div class="mid_content"
+		 id="right_column">
+		<h1>	
+			<a 	href="html/other_projects.html"
+	   		alt="go to other projects">
+				Other Projects
+			 </a>      
+	   	</h1>	
+	</div>	
+
+	
+	
+<!-- end middle content -->
+
+	
+<!-- about me section -->
+
+<div class="about_section">	
+	<div id="headshot">
+	
+		<img src="images/braden_portrait.jpg"
+		 	alt="headshot of artist"
+		 >
+	</div>	
+	
+	<div class="about_me"
+		 id="name">
+	<h2> Braden Kowalchuk</h2>
+	</div>
+	
+	<div class="about_me"
+		 id="body">
+	<p class="abt_me_col1"> Born and raised around Hafford, SK, I grew up on an acreage where I had the opportunity to experiment, practice, and develop skills in mechanics and construction. As a recent graduate of Medicine Hat College with a degree in Applied Arts, I found ways to combine my interest in art and design with skills I've learned from growing up in my rural community, studying computer-aided design and manufacturing, and training as an electrician. 
+	<br><br></p><p> 
+
+	As a craftsman with a special interest in technology, mechanics, construction, and arts and heritage, I've worked with a variety of organizations including Tweak Designs, Medalta in the Historic Clay District, Pad Printer, Alliance Energym, Saskatoon Scotiabank Theatre, and Saskatoon Fire and Flood.
+	<br><br>
+	Since living in Medicine Hat (home of Canada's preeminent international ceramics residency and center) I've found my niche in sculpture. I love to employ mechanical and natural elements in my work.</p>	
+	
+	</div>
+	
+</div>	
+	
+<!-- end about me section -->
+	
+<!-- resume and contact -->
+
+<div class="contact_section">
+	
+	<div class="resume">
+	<h2 ><a  id="resume_modal">resume	</a></h2>	
+	</div>
+	
+	<div class="email">
+	<h2>Email: braden.a.j.kowalchuk@live.ca</h2>	
+	</div>
+
+</div>
+	
+<img id="myImg" src="images/resume_designed.jpg" alt="resume">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01" alt="resume">
+</div>
+	
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var resume =document.getElementById("resume_modal")	
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+resume.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = img.src;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>	
+<!-- end resume and contact -->	
+	
+<!-- bottom credits -->
+	
+<!-- end bottom credits -->	
+	
+<!--end grid -->	
+</div>	
+	
+	
+</body>
+</html>
